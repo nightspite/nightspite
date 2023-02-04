@@ -1,16 +1,31 @@
 import satori, { SatoriOptions } from "satori";
 import { SITE } from "@config";
 
+// const fetchFonts = async () => {
+//   // Regular Font
+//   const fontFileRegular = await fetch(
+//     "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
+//   );
+//   const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
+
+//   // Bold Font
+//   const fontFileBold = await fetch(
+//     "https://www.1001fonts.com/download/font/ibm-plex-mono.bold.ttf"
+//   );
+//   const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
+
+//   return { fontRegular, fontBold };
+// };
 const fetchFonts = async () => {
   // Regular Font
   const fontFileRegular = await fetch(
-    "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
+    "https://www.1001fonts.com/download/font/space-mono.regular.ttf"
   );
   const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
 
   // Bold Font
   const fontFileBold = await fetch(
-    "https://www.1001fonts.com/download/font/ibm-plex-mono.bold.ttf"
+    "https://www.1001fonts.com/download/font/space-mono.bold.ttf"
   );
   const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
 
@@ -119,15 +134,17 @@ const options: SatoriOptions = {
   embedFont: true,
   fonts: [
     {
-      name: "IBM Plex Mono",
+      // name: "IBM Plex Mono",
+      name: "Space Mono",
       data: fontRegular,
       weight: 400,
       style: "normal",
     },
     {
-      name: "IBM Plex Mono",
+      // name: "IBM Plex Mono",
+      name: "Space Mono",
       data: fontBold,
-      weight: 600,
+      weight: 700,
       style: "normal",
     },
   ],
