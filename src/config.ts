@@ -1,11 +1,11 @@
 import type { SocialObjects } from "./types";
 
 export const SITE = {
-  website: "https://astro-paper.pages.dev/",
+  website: "https://nightspite.vercel.app/",
   author: "Kacper Kurteczka",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Solopreneur & developer with a passion for turning ideas into reality through code.",
   title: "nightspite",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "nightspite-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 6,
 };

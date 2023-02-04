@@ -4,7 +4,7 @@ title: "About"
 ---
 
 <div>
-  <img src="/assets/nightspite.png" class="sm:w-1/2 rounded-lg ml-0" alt="das me">
+  <img src="/assets/nightspite.jpg" class="sm:w-1/2 rounded-lg ml-0" alt="das me">
 </div>
 
 I'm a frontend developer with a passion for turning ideas into reality
