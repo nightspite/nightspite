@@ -28,7 +28,8 @@ export default defineConfig({
       ],
     ],
     shikiConfig: {
-      theme: "one-dark-pro",
+      // theme: "material-palenight",
+      theme: "poimandres",
       wrap: true,
     },
     extendDefaultPlugins: true,
