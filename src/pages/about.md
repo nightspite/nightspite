@@ -7,12 +7,14 @@ title: "About"
   <img src="/assets/nightspite.png" class="sm:w-1/2 rounded-lg ml-0" alt="das me">
 </div>
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+I'm a frontend developer with a passion for turning ideas into reality
+through code. In my spare time, I like to dabble in backend development
+and aspire to one day become a full-stack master. When I'm not working
+on projects, you can find me tinkering on my side projects or trying to
+turn them into profitable ventures. I consider myself an indie hacker,
+always on the lookout for the next big opportunity to turn my passion
+into a successful business. Until then, I'll keep honing my skills and
+building cool stuff for the internet to enjoy.
 
 ## Tech Stack
 
