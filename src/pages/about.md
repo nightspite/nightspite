@@ -9,11 +9,14 @@ title: "About"
 
 I'm a frontend developer with a passion for turning ideas into reality
 through code. In my spare time, I like to dabble in backend development
-and aspire to one day become a full-stack master. When I'm not working
-on projects, you can find me tinkering on my side projects or trying to
+and aspire to one day become a full-stack master.
+
+When I'm not working on projects, you can find me tinkering on my side projects or trying to
 turn them into profitable ventures. I consider myself an indie hacker,
 always on the lookout for the next big opportunity to turn my passion
-into a successful business. Until then, I'll keep honing my skills and
+into a successful business. 
+
+Until then, I'll keep honing my skills and
 building cool stuff for the internet to enjoy.
 
 ## Tech Stack
