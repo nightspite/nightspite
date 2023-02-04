@@ -1,5 +1,6 @@
 ---
 import Hr from "./Hr.astro";
+import LinkButton from "./LinkButton.astro";
 import Socials from "./Socials.astro";
 
 const currentYear = new Date().getFullYear();
@@ -15,10 +16,44 @@ const { noMarginTop = false } = Astro.props;
   <Hr noPadding />
   <div class="footer-wrapper">
     <Socials centered />
-    <div class="copyright-wrapper">
-      <span>Copyright &#169; {currentYear}</span>
-      <span class="separator">&nbsp;|&nbsp;</span>
-      <span>All rights reserved.</span>
+    <div>
+      <div class="copyright-wrapper">
+        <span>Copyright &#169; {currentYear}</span>
+        <span class="separator">&nbsp;|&nbsp;</span>
+        <span>All rights reserved.</span>
+      </div>
+      <div class="copyright-wrapper">
+        <span
+          >Built with <LinkButton
+            href="https://astro.build/"
+            className="underline underline-offset-4 decoration-dashed"
+            ariaLabel="astro"
+            title="Astro"
+          >
+            Astro
+          </LinkButton>.
+        </span>
+        &nbsp;
+        <span>
+          <LinkButton
+            href="https://github.com/satnaing/astro-paper"
+            className="underline underline-offset-4 decoration-dashed"
+            ariaLabel="theme"
+            title="Theme"
+          >
+            Theme
+          </LinkButton>
+          by
+          <LinkButton
+            href="https://github.com/satnaing"
+            className="underline underline-offset-4 decoration-dashed"
+            ariaLabel="Sat Naing"
+            title="Sat Naing"
+          >
+            Sat Naing
+          </LinkButton>
+        </span>
+      </div>
     </div>
   </div>
 </footer>
