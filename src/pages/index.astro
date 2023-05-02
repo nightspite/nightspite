@@ -75,10 +75,47 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       }
     </section>
 
+    <section id="portfolio" class="section">
+      <h2>Projects</h2>
+      <a
+        target="_blank"
+        href={SOCIALS?.find(s => s?.name === "read.cv")?.href + "#projects"}
+        class="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 hover:underline focus-visible:no-underline focus-visible:underline-offset-0"
+        >Check on read.cv</a
+      >
+    </section>
+
+    <section id="side-projects" class="section">
+      <h2>Side projects</h2>
+      <div class="mt-4 grid w-full grid-cols-2 gap-2">
+        <a
+          href="https://screenshot-background.vercel.app/"
+          class="block overflow-auto rounded-md border-2 border-skin-accent"
+        >
+          <img
+            src="/side-projects/screenshot-background-og.jpg"
+            alt="nightspite"
+          />
+          <h3 class="p-4">screenshot-background</h3>
+        </a>
+      </div>
+    </section>
+
+    <section id="work-experience" class="section">
+      <h2>Experience</h2>
+      <a
+        target="_blank"
+        href={SOCIALS?.find(s => s?.name === "read.cv")?.href +
+          "#work-experience"}
+        class="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 hover:underline focus-visible:no-underline focus-visible:underline-offset-0"
+        >Check on read.cv</a
+      >
+    </section>
+
     {
       featuredPosts.length > 0 && (
         <>
-          <section id="featured">
+          <section id="featured" class="section">
             <h2>Featured</h2>
             <ul>
               {featuredPosts.map(({ data }) => (
@@ -94,7 +131,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       )
     }
 
-    <section id="recent-posts">
+    <section id="recent-posts" class="section">
       <h2>Recent Posts</h2>
       <ul>
         {
@@ -151,15 +188,17 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
 
   /* ===== Featured & Recent Posts Sections ===== */
-  #featured,
-  #recent-posts {
-    @apply pt-12 pb-6;
-  }
-  #featured h2,
-  #recent-posts h2 {
-    @apply text-2xl font-semibold tracking-wide;
-  }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
+  }
+
+  .section {
+    @apply my-16;
+  }
+  .section h2 {
+    @apply text-2xl font-semibold tracking-wide;
+  }
+  .section h3 {
+    @apply text-xl font-semibold tracking-wide;
   }
 </style>
