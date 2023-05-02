@@ -2,7 +2,7 @@
 import { SITE } from "@config";
 import "../styles/base.css";
 
-const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+// const googleAnalyticsGtagId = import.meta.env.PUBLIC_GTAG_ID;
 
 export interface Props {
   title?: string;
@@ -73,17 +73,29 @@ const fallbackImageURL = new URL(SITE.ogImage, Astro.url.origin).href;
       rel="stylesheet"
     />
 
-    {
-      // If PUBLIC_GOOGLE_SITE_VERIFICATION is set in the environment variable,
-      // include google-site-verification tag in the heading
-      // Learn more: https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag
+    <!-- {
       googleSiteVerification && (
         <meta
           name="google-site-verification"
           content={googleSiteVerification}
         />
       )
-    }
+    } -->
+
+    <script
+      type="text/partytown"
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PRG29J22Z8"
+    ></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-PRG29J22Z8");
+    </script>
 
     <script is:inline src="/toggle-theme.js"></script>
   </head>
