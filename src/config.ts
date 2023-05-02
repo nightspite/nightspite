@@ -3,7 +3,7 @@ import type { SocialObjects } from "./types";
 export const SITE = {
   website: "https://nightspite.vercel.app/",
   author: "Kacper Kurteczka",
-  desc: "Solopreneur & developer with a passion for turning ideas into reality through code.",
+  desc: "Developer with a passion for turning ideas into reality through code.",
   title: "nightspite",
   ogImage: "nightspite-og.jpg",
   lightAndDarkMode: true,
@@ -43,15 +43,15 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
-    name: "Mail",
-    href: "mailto:kacper.kurteczka@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
-    active: true,
-  },
-  {
     name: "Twitter",
     href: "https://twitter.com/nightspite3",
     linkTitle: `${SITE.title} on Twitter`,
+    active: true,
+  },
+  {
+    name: "Mail",
+    href: "mailto:kacper.kurteczka@gmail.com",
+    linkTitle: `Send an email to ${SITE.title}`,
     active: true,
   },
   // {

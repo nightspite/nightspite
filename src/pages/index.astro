@@ -4,7 +4,6 @@ import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import LinkButton from "@components/LinkButton.astro";
-import Hr from "@components/Hr.astro";
 import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
@@ -23,6 +22,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
+      <div>
+        <img
+          src="/assets/nightspite.jpg"
+          class="ml-0 rounded-lg sm:w-1/4"
+          alt="das me"
+        />
+      </div>
       <h1>Kacper Kurteczka</h1>
       <a
         target="_blank"
@@ -41,34 +47,23 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        I'm a frontend developer with a passion for turning ideas into reality
-        through code. In my spare time, I like to dabble in backend development
-        and aspire to one day become a full-stack master.
+        I'm a fullstack developer with a passion for turning ideas into reality
+        through code.
       </p>
       <p>
         When I'm not working on projects, you can find me tinkering on my side
-        projects or trying to turn them into profitable ventures. I consider
-        myself an indie hacker, always on the lookout for the next big
-        opportunity to turn my passion into a successful business.
+        projects or trying to turn them into profitable ventures.
       </p>
       <p>
-        Until then, I'll keep honing my skills and building cool stuff for the
+        I consider myself an indie hacker, always on the lookout for the next
+        big opportunity to turn my passion into a successful business. Until
+        then, I'll keep honing my skills and building cool stuff for the
         internet to enjoy.
       </p>
-      <!-- <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p> -->
+
       {
-        // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            {/*<div class="social-links">Social Links:</div> */}
             <Socials />
           </div>
         )

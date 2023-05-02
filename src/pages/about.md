@@ -7,35 +7,18 @@ title: "About"
   <img src="/assets/nightspite.jpg" class="sm:w-1/2 rounded-lg ml-0" alt="das me">
 </div>
 
-I'm a frontend developer with a passion for turning ideas into reality
-through code. In my spare time, I like to dabble in backend development
-and aspire to one day become a full-stack master.
+I'm a fullstack developer with a passion for turning ideas into reality through code.
 
-When I'm not working on projects, you can find me tinkering on my side projects or trying to
-turn them into profitable ventures. I consider myself an indie hacker,
-always on the lookout for the next big opportunity to turn my passion
-into a successful business. 
+When I'm not working on projects, you can find me tinkering on my side projects or trying to turn them into profitable ventures.
 
-Until then, I'll keep honing my skills and
-building cool stuff for the internet to enjoy.
+I consider myself an indie hacker, always on the lookout for the next big opportunity to turn my passion into a successful business. Until then, I'll keep honing my skills and building cool stuff for the internet to enjoy.
 
 ## Tech Stack
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+Don't care. Most of the things are written in Typescript using frameworks like Next.js, Nest.js or trpc as that's the fastest way to get projects of the ground and iterate over them until the problem of scale becomes a thing.
 
-## Features
+I use arch btw. (jk popOS or macOS)
 
-Here are certain features of this site.
+## Dotfiles
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+soon...
