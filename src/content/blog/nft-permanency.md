@@ -1,7 +1,7 @@
 ---
 title: NFT Permanency
 author: Kacper Kurteczka
-pubDatetime: 2023-05-07T05:21:50Z
+pubDatetime: 2023-05-07T21:50:00Z
 postSlug: nft-permanency
 featured: true
 draft: false
