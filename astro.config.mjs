@@ -8,7 +8,7 @@ import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://nightspite.vercel.app/",
+  site: "https://nightspite.me",
   integrations: [
     tailwind({
       config: {
