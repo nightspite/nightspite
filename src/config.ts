@@ -5,6 +5,7 @@ export const SITE = {
   author: "Kacper Kurteczka",
   desc: "Fullstack developer with a passion for turning ideas into reality through code.",
   title: "Kacper Kurteczka (@nightspite)",
+  username: "nightspite",
   ogImage: "nightspite-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 6,
