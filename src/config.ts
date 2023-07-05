@@ -9,43 +9,50 @@ export const SITE = {
   ogImage: "nightspite-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 6,
+
+  github: "nightspite",
+  readcv: "nightspite",
+  linkedin: "kacperkurteczka",
+  twitter: "nightspite3",
+  reddit: "nightspite",
+  email: "kacper.kurteczka@gmail.com"
 };
 
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/nightspite",
-    linkTitle: ` ${SITE.title} on Github`,
+    href: `https://github.com/${SITE.github}`,
+    linkTitle: `${SITE.author} (@${SITE.github}) on Github`,
     active: true,
   },
-  // {
-  //   name: "Instagram",
-  //   href: "https://github.com/satnaing/astro-paper",
-  //   linkTitle: `${SITE.title} on Instagram`,
-  //   active: true,
-  // },
   {
     name: "read.cv",
-    href: "https://read.cv/nightspite",
-    linkTitle: `${SITE.title} on read.cv`,
+    href: `https://read.cv/${SITE.readcv}`,
+    linkTitle: `${SITE.author} (@${SITE.readcv}) on read.cv`,
     active: true,
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/kacperkurteczka/",
-    linkTitle: `${SITE.title} on LinkedIn`,
+    href: `https://www.linkedin.com/in/${SITE.linkedin}/`,
+    linkTitle: `${SITE.author} (@${SITE.linkedin}) on LinkedIn`,
     active: true,
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/nightspite3",
-    linkTitle: `${SITE.title} on Twitter`,
+    href: `https://twitter.com/${SITE.twitter}`,
+    linkTitle: `${SITE.author} (@${SITE.twitter}) on Twitter`,
     active: true,
   },
   {
     name: "Mail",
-    href: "mailto:kacper.kurteczka@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
+    href: `mailto:${SITE.email}`,
+    linkTitle: `Send an email to ${SITE.email}`,
+    active: true,
+  },
+  {
+    name: "Reddit",
+    href: `https://www.reddit.com/user/${SITE.reddit}`,
+    linkTitle: `${SITE.author} (@${SITE.reddit}) on Reddit`,
     active: true,
   },
   // {
@@ -54,12 +61,12 @@ export const SOCIALS: SocialObjects = [
   //   linkTitle: `${SITE.title} on Discord`,
   //   active: true,
   // },
-  {
-    name: "Reddit",
-    href: "https://www.reddit.com/user/nightspite",
-    linkTitle: `${SITE.title} on Reddit`,
-    active: true,
-  },
+  // {
+  //   name: "Instagram",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on Instagram`,
+  //   active: true,
+  // },
   // {
   //   name: "Facebook",
   //   href: "https://github.com/satnaing/astro-paper",
