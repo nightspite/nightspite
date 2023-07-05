@@ -3,8 +3,8 @@ import type { SocialObjects } from "./types";
 export const SITE = {
   website: "https://nightspite.me",
   author: "Kacper Kurteczka",
-  desc: "Developer with a passion for turning ideas into reality through code.",
-  title: "nightspite",
+  desc: "Fullstack developer with a passion for turning ideas into reality through code.",
+  title: "Kacper Kurteczka (@nightspite)",
   ogImage: "nightspite-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 6,
