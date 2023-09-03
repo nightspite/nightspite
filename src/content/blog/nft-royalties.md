@@ -4,7 +4,7 @@ author: Kacper Kurteczka
 pubDatetime: 2023-05-08T8:00:00Z
 postSlug: nft-royalties
 featured: true
-draft: false
+draft: true
 tags:
   - blockchain
   - ethereum
