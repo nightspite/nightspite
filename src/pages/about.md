@@ -17,8 +17,3 @@ I consider myself an indie hacker, always on the lookout for the next big opport
 
 Don't care. Most of the things are written in Typescript using frameworks like Next.js, Nest.js or trpc as that's the fastest way to get projects of the ground and iterate over them until the problem of scale becomes a thing.
 
-I use arch btw. (jk popOS or macOS)
-
-## Dotfiles
-
-soon...
