@@ -37,8 +37,7 @@
     @apply mx-auto max-w-3xl px-4;
   }
   a {
-    @apply outline-2 outline-offset-1 outline-skin-fill 
-    focus-visible:no-underline focus-visible:outline-dashed;
+    @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
   }
   svg {
     @apply inline-block h-6 w-6 fill-skin-base group-hover:fill-skin-accent;
@@ -70,7 +69,6 @@
     prose-img:border-2 prose-img:border-skin-line prose-hr:!border-skin-line;
   }
   .prose a {
-    text-decoration-color: rgba(var(--color-accent), 0.5);
     @apply decoration-[rgb(var(--color-accent))] hover:!text-skin-accent;
   }
   .prose thead th:first-child,
@@ -149,7 +147,13 @@
   .display-none {
     @apply hidden;
   }
+
   .focus-outline {
     @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
+  }
+
+  .link {
+    @apply hover:text-skin-accent decoration-dashed underline-offset-4 underline focus-visible:no-underline focus-visible:underline-offset-0;
+    @apply decoration-[rgb(var(--color-accent))] hover:!text-skin-accent;
   }
 }

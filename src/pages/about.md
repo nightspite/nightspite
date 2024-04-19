@@ -7,13 +7,8 @@ title: "About"
   <img src="/assets/nightspite.jpg" class="sm:w-1/2 rounded-lg ml-0" alt="das me">
 </div>
 
-I'm a fullstack developer with a passion for turning ideas into reality through code.
+I'm the co-founder of <a href="https://bundle.global">bungle.global</a>, a company dedicated to creating software that makes both life and work simpler.
 
-When I'm not working on projects, you can find me tinkering on my side projects or trying to turn them into profitable ventures.
+With a solid tech background, I've been involved in a wide range of fields, from cybersecurity and fintech to blockchain, AI, 3D tech, casinos, rentals, social media, and gaming - you name it.
 
-I consider myself an indie hacker, always on the lookout for the next big opportunity to turn my passion into a successful business. Until then, I'll keep honing my skills and building cool stuff for the internet to enjoy.
-
-## Tech Stack
-
-Don't care. Most of the things are written in Typescript using frameworks like Next.js, Nest.js or trpc as that's the fastest way to get projects of the ground and iterate over them until the problem of scale becomes a thing.
-
+Our goal? To deliver software that tackles real, everyday problems—making things a bit easier for everyone.

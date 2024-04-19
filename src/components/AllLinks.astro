@@ -1,0 +1,18 @@
+---
+import { SOCIALS } from "@config";
+---
+
+<div>
+  {
+    (
+      <a
+        href={SOCIALS.find(social => social.name === "Bento")?.href || "/"}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link"
+      >
+        All links
+      </a>
+    )
+  }
+</div>

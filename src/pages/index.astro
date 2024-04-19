@@ -5,10 +5,10 @@ import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import LinkButton from "@components/LinkButton.astro";
 import Card from "@components/Card";
-import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import slugify from "@utils/slugify";
 import { SOCIALS } from "@config";
+import AllLinks from "@components/AllLinks.astro";
 
 const posts = await getCollection("blog");
 
@@ -47,27 +47,29 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        I'm a fullstack developer with a passion for turning ideas into reality
-        through code.
+        I'm the co-founder of <a href="https://bundle.global" class="link"
+          >bungle.global</a
+        >, a company dedicated to creating software that makes both life and
+        work simpler.
       </p>
       <p>
-        When I'm not working on projects, you can find me tinkering on my side
-        projects or trying to turn them into profitable ventures.
+        With a solid tech background, I've been involved in a wide range of
+        fields, from cybersecurity and fintech to blockchain, AI, 3D tech,
+        casinos, rentals, social media, and gaming - you name it.
       </p>
       <p>
-        I consider myself an indie hacker, always on the lookout for the next
-        big opportunity to turn my passion into a successful business. Until
-        then, I'll keep honing my skills and building cool stuff for the
-        internet to enjoy.
+        Our goal? To deliver software that tackles real, everyday
+        problems—making things a bit easier for everyone.
       </p>
 
-      {
+      <!-- {
         socialCount > 0 && (
           <div class="social-wrapper">
             <Socials />
           </div>
         )
-      }
+      } -->
+      <AllLinks />
     </section>
 
     <section id="portfolio" class="section">
