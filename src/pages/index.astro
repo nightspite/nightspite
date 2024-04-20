@@ -29,16 +29,17 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           alt="das me"
         />
       </div>
-      <h1>Kacper Kurteczka</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        🤙
-      </a>
+      <div class="heading">
+        <h1>Kacper Kurteczka</h1>
+        <a
+          target="_blank"
+          href="/rss.xml"
+          aria-label="rss feed"
+          title="RSS Feed"
+        >
+          🤙
+        </a>
+      </div>
 
       <p>
         I'm the co-founder of <a href="https://bundle.global" class="link"
@@ -159,14 +160,11 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   #hero {
     @apply pt-8 pb-6;
   }
-  #hero h1 {
-    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+  #hero .heading {
+    @apply my-4 text-3xl font-bold sm:my-8 sm:text-5xl;
   }
-  #hero .rss-link {
-    @apply mb-6;
-  }
-  #hero .rss-icon {
-    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
+  .heading h1 {
+    @apply inline-block;
   }
   #hero p {
     @apply my-2;
