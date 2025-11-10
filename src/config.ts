@@ -11,56 +11,51 @@ export const SITE = {
   postPerPage: 6,
 
   github: "nightspite",
+  bento: "nightspite",
   readcv: "nightspite",
   linkedin: "kacperkurteczka",
   twitter: "nightspite3",
   reddit: "nightspite",
-  email: "kacper@bundle.global"
+  email: "kacper@bundle.global",
 };
 
 export const SOCIALS: SocialObjects = [
-  // {
-  //   name: "Github",
-  //   href: `https://github.com/${SITE.github}`,
-  //   linkTitle: `${SITE.author} (@${SITE.github}) on Github`,
-  //   active: true,
-  // },
+  {
+    name: "Github",
+    href: `https://github.com/${SITE.github}`,
+    linkTitle: `${SITE.author} (@${SITE.github}) on Github`,
+    active: true,
+  },
   {
     name: "Bento",
-    href: 'https://bento.me/nightspite',
+    href: `https://bento.me/${SITE.bento}`,
     linkTitle: `${SITE.author} (@${SITE.username}) on Bento`,
     active: true,
   },
   {
-    name: "read.cv",
-    href: 'https://read.cv/nightspite',
-    linkTitle: `${SITE.author} (@${SITE.readcv}) on read.cv`,
-    active: false,
+    name: "LinkedIn",
+    href: `https://www.linkedin.com/in/${SITE.linkedin}/`,
+    linkTitle: `${SITE.author} (@${SITE.linkedin}) on LinkedIn`,
+    active: true,
   },
-  // {
-  //   name: "LinkedIn",
-  //   href: `https://www.linkedin.com/in/${SITE.linkedin}/`,
-  //   linkTitle: `${SITE.author} (@${SITE.linkedin}) on LinkedIn`,
-  //   active: true,
-  // },
-  // {
-  //   name: "Twitter",
-  //   href: `https://twitter.com/${SITE.twitter}`,
-  //   linkTitle: `${SITE.author} (@${SITE.twitter}) on Twitter`,
-  //   active: true,
-  // },
-  // {
-  //   name: "Mail",
-  //   href: `mailto:${SITE.email}`,
-  //   linkTitle: `Send an email to ${SITE.email}`,
-  //   active: true,
-  // },
-  // {
-  //   name: "Reddit",
-  //   href: `https://www.reddit.com/user/${SITE.reddit}`,
-  //   linkTitle: `${SITE.author} (@${SITE.reddit}) on Reddit`,
-  //   active: true,
-  // },
+  {
+    name: "Twitter",
+    href: `https://twitter.com/${SITE.twitter}`,
+    linkTitle: `${SITE.author} (@${SITE.twitter}) on Twitter`,
+    active: true,
+  },
+  {
+    name: "Mail",
+    href: `mailto:${SITE.email}`,
+    linkTitle: `Send an email to ${SITE.email}`,
+    active: true,
+  },
+  {
+    name: "Reddit",
+    href: `https://www.reddit.com/user/${SITE.reddit}`,
+    linkTitle: `${SITE.author} (@${SITE.reddit}) on Reddit`,
+    active: true,
+  },
   // {
   //   name: "Discord",
   //   href: "https://github.com/satnaing/astro-paper",
@@ -121,7 +116,7 @@ export const SOCIALS: SocialObjects = [
   //   linkTitle: `${SITE.title} on CodePen`,
   //   active: false,
   // },
-  
+
   // {
   //   name: "GitLab",
   //   href: "https://github.com/satnaing/astro-paper",

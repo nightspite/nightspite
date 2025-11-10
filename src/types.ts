@@ -10,8 +10,7 @@ export type SocialIcons = {
 };
 
 export type SocialMedia =
-  | "read.cv"
-  | 'Bento'
+  | "Bento"
   | "Github"
   | "Facebook"
   | "Instagram"
