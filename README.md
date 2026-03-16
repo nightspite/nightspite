@@ -4,6 +4,7 @@ Co-founder of [bundle.global](https://bundle.global)
 
 Current projects:
 - [bundle.social](https://bundle.social)
+- [fakturystripe.pl](https://fakturystripe.pl)
 
 [All links](https://bento.me/nightspite)
 
