@@ -11,7 +11,7 @@ export const SITE = {
   postPerPage: 6,
 
   github: "nightspite",
-  bento: "nightspite",
+  linkinbio: "nightspite",
   readcv: "nightspite",
   linkedin: "kacperkurteczka",
   twitter: "nightspite3",
@@ -27,9 +27,9 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
-    name: "Bento",
-    href: `https://bento.me/${SITE.bento}`,
-    linkTitle: `${SITE.author} (@${SITE.username}) on Bento`,
+    name: "Linkinbio",
+    href: `https://avely.me/${SITE.linkinbio}`,
+    linkTitle: `${SITE.author} (@${SITE.username}) Link in bio`,
     active: true,
   },
   {
